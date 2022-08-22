@@ -8,52 +8,62 @@
     <title><%- title %></title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
     <link rel="stylesheet" href="./assets/style/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
+    <div class="bg-red">
+      <div class="header container">
+          <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/logo-white.png?raw=true" alt="logo圖">  
+          <ul class="tx-Wh">
+              <li><a href="#">系列鏡框</a></li>
+              <li><a href="#">門市據點</a></li>
+              <li><a href="#">部落格</a></li>
+              <li><a href="#">常見問題</a></li>
           </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
       </div>
-    </nav>
+  </div>
+    
 
     <%- contents %>
 
-    <footer class="footer">
-      footer
+    <footer>
+      <div>
+        <div >
+            <ul >
+                <li><a href="">首頁</a></li>
+                <li><a href="">系列鏡框</a></li>
+                <li><a href="">門市據點</a></li>
+                <li><a href="">常見問題</a></li>
+            </ul>
+            <ul>
+                <li><a href="#"><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/ic-social-fb.png?raw=true" alt="FB-icon"></a></li>
+                <li><a href="#"><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/ic_social_ig.png?raw=true" alt="IG-icon"></a></li>
+                <li><a href="#"><img src="https://github.com/hexschool/2022-web-layout-training/blob/main/week3-4/ic_social_line.png?raw=true" alt="line-icon"></a></li>
+            </ul>
+            <ul>
+                <li>
+                    <img src="" alt="">
+                    <h3><a href="tel:0800-000-000">0800-000-000</a></h3>
+                </li>
+                <li>
+                    <img src="" alt="">
+                    <h3><a href="mailto:glasses@business.com">glasses@business.com</a></h3>
+                </li>
+            </ul>
+            
+        </div>
+        <div>
+            <p>Copyright © 2020 Glasses.All rights reserved.</p>
+            <ul>
+                <li><a href="#">隱私權政策</a></li>
+                <li><a href="#">服務條款</a></li>
+            </ul>
+        </div>
+    </div>
     </footer>
-
     <script src="./assets/js/vendors.js"></script>
     <script src="./assets/js/all.js"></script>
   </body>

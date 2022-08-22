@@ -1,0 +1,18 @@
+// `sm` applies to x-small devices (portrait phones, less than 576px)
+@mixin mobile-sm{
+    @media (max-width: 575.98px){
+        @content;
+    }
+}
+// `md` applies to small devices (landscape phones, less than 768px)
+@mixin mobile {
+    @media (max-width: 767.98px) {
+        @content;
+    }    
+}
+// `lg` applies to medium devices (tablets, less than 992px)
+@mixin pad {
+    @media (max-width: 991.98px) {
+        @content;
+    }    
+}
